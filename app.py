@@ -4,7 +4,7 @@ import torch
 
 st.header("AI Chat App")
 
-Generator = pipeline("text-generation", model="gpt2")
+Generator = pipeline("text-generation", model="distilgpt2")
 
 if "Chat history" not in st.session_state:
   st.session_state.chat_history = []
