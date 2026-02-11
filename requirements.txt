@@ -1,3 +1,10 @@
+<<<<<<< HEAD
 streamlit
 transformers
 torch
+=======
+streamlit
+openai
+python-dotenv
+
+>>>>>>> 10e5abf (Updated to HF router v1 OpenAI style)
